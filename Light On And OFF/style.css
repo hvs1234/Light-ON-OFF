@@ -1,0 +1,48 @@
+body{background: linear-gradient(to right,rgb(54, 5, 100),rgb(83, 16, 160),rgb(124, 1, 224));}
+.container
+{
+    align-items: center;
+    margin-top: 100px;
+    height: 600px;
+}
+
+.container h1
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Dosis' , sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 4em;
+    color: yellow;
+}
+.container button
+{
+    display: inline-block;
+    margin: 20px 100px;
+    padding: 20px 20px;
+    position: relative;
+    top: 100px;
+    left: 560px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 2px black;
+    font-size: 1.5em;
+    background-color: lightskyblue;
+    font-weight: bold;
+    font-family: 'Dosis' , sans-serif;
+    letter-spacing: 2px;
+}
+.container button:hover
+{
+    background-color: lightgreen;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+#myimage{
+    display: flex;
+    flex-direction: column;
+    margin-left: 51em;
+    margin-top: 80px;
+    width: 250px;
+}
